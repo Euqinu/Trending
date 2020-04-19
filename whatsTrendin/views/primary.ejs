@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WhatsTrending</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">whatsTrending</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </nav>
+    
+    <div class="container">
+        <div class="covid-container">
+            <div>
+                <h2>Global facts</h2>
+            </div>
+            <h1>Coronavirus pandemic</h1>
+            <div class="confirmed"></div>
+            <div class="infodata">
+                <div class="legend">
+                    <div class="dot"  style="background-color:orangered;">
+                        <div class="description">Total cases </div>
+                        <div class="data"><%=tc%></div>
+                    </div>
+                    <div class="dot"  style="background-color:green;">
+                        <div class="description">Total recovered </div>
+                        <div class="data"><%=tr%></div>
+                    </div>
+                    <div class="dot" style="background-color:red;">
+                        <div class="description">Total deaths </div>
+                        <div class="data"><%=td%></div>
+                    </div>
+                    <div class="dot"  style="background-color:orange;">
+                        <div class="description">Active cases </div>
+                        <div class="data"><%=ac%></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+        
+
+
+
+    </div>
+    
+    
+    
+</body>
+</html>
