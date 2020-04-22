@@ -17,8 +17,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/test">Corona</a>
             <a class="nav-item nav-link" href="#">Pricing</a>
             <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </div>
@@ -26,34 +26,58 @@
       </nav>
     
     <div class="container">
-        <div class="covid-container">
+        <div class="covid-container" style="background-color: #dfe8e6;">
             <div>
                 <h2>Global facts</h2>
             </div>
             <h1>Coronavirus pandemic</h1>
-            <div class="confirmed"></div>
             <div class="infodata">
                 <div class="legend">
                     <div class="dot"  style="background-color:orangered;">
                         <div class="description">Total cases </div>
-                        <div class="data"><%=tc%></div>
+                        <div class="data"><%=worldCases%></div>
                     </div>
                     <div class="dot"  style="background-color:green;">
                         <div class="description">Total recovered </div>
-                        <div class="data"><%=tr%></div>
+                        <div class="data"><%=worldRecovered%></div>
                     </div>
                     <div class="dot" style="background-color:red;">
                         <div class="description">Total deaths </div>
-                        <div class="data"><%=td%></div>
+                        <div class="data"><%=worldDeaths%></div>
                     </div>
                     <div class="dot"  style="background-color:orange;">
                         <div class="description">Active cases </div>
-                        <div class="data"><%=ac%></div>
+                        <div class="data"><%=newCases%></div>
                     </div>
                     
                 </div>
             </div>
 
+        </div>
+
+        <div class="nepal-cases" style="background-color:#dfe8e6">
+            <h1>Cases in Nepal</h1>
+            <div class="infodata">
+                <div class="legend">
+                    <div class="dot"  style="background-color:orangered;">
+                        <div class="description">Total cases </div>
+                        <div class="data"><%=npCases%></div>
+                    </div>
+                    <div class="dot"  style="background-color:green;">
+                        <div class="description">Total recovered </div>
+                        <div class="data"><%=npRecovered%></div>
+                    </div>
+                    <div class="dot" style="background-color:red;">
+                        <div class="description">Total deaths </div>
+                        <div class="data"><%=npDeaths%></div>
+                    </div>
+                    <div class="dot"  style="background-color:orange;">
+                        <div class="description">New Cases </div>
+                        <div class="data"><%=npActive%></div>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
         
 

@@ -11,6 +11,11 @@ nav{
     margin-bottom: 100px;
 }
 
+.covid-container{
+    background-color: grey;
+    padding: 30px;
+}
+
 .dot {
   width: 150px;
   height: 150px;
@@ -21,8 +26,8 @@ nav{
    }
 
 .description{
-    font-size: 10px;
-    font-style: italic;
+    font-size: 12px;
+    
 }
 .data{
     font-size: 20px;
@@ -32,3 +37,52 @@ nav{
       display:flex;
       justify-content: space-between;
   }
+
+  .nepal-cases{
+      margin-top: 60px;
+      padding: 30px;;
+      
+  }
+
+  .popular{
+      display: flex;
+      margin: -20px 130px;
+      
+  }
+
+  .popular-tags{
+      background-color: #dfe8e6;
+      height: 150px;
+      width: 150px;
+      border-radius: 10px;
+      margin:0px 10px ;
+      
+    
+  }
+.body{
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
+
+  .body-box{
+    background-color:#dfe8e6;
+    height: 500px;
+    width: 700px;
+    border-radius: 15px;
+    left: 40%;
+    position: relative;
+    margin-left: -300px;
+    margin-top: 40px;
+    /* margin: 0px auto;
+    display: inline-block; */
+    
+}
+
+.container-page{
+    left: 50%;
+}
