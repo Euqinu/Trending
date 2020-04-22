@@ -4,7 +4,6 @@ const request=require('request');
 const axios=require('axios');
 
 route.get('/',(req,res)=>{
-    console.log('route is working');
     res.render('index')
 })
 
